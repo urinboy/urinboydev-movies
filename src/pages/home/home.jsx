@@ -1,9 +1,14 @@
 import React from 'react'
+import CardCat from '../../components/cat-card/card'
 import './home.scss'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <div className="categories">
+        <CardCat />
+      </div>
+    </>
   )
 }
 

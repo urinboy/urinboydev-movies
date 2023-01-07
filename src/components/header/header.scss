@@ -1,9 +1,20 @@
 .header{
-    padding: 30px;
+    padding: 0 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    .search{
+            padding: 12px 50px;
+        img{
+            position: absolute;
+            // top: 2px;
+            // left: 3px;
+            margin-top: 10px;
+            margin-left: 15px;
+            z-index: 99999;
+        }
+    }
     input{
         width: 347px;
         padding: 9px 52px;
@@ -17,5 +28,26 @@
             width: 20px;
             background-image: url('../../assets/icons/search.svg');
         }
+    }
+}
+
+.navigation{
+    margin: 30px 20px 30px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    a{
+        margin-right: 10px;
+        margin-right: 12px;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 11px;
+        /* or 11px */
+
+        letter-spacing: 0.05em;
     }
 }
