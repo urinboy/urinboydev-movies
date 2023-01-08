@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './header.scss'
+
 import logoImg from '../../assets/images/logo.svg';
 import SearchIcon from '../../assets/icons/search.svg'
 import menuImg from '../../assets/icons/menu.svg';
 import langImg from '../../assets/icons/usa.png';
+
 import Carousel from '../carousel/carousel';
+
 import caruselItem1 from '../../assets/images/ca-item-1.png'
 import caruselItem2 from '../../assets/images/ca-item-3.png'
 import caruselItem3 from '../../assets/images/ca-item-4.webp'
